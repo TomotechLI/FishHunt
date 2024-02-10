@@ -6,8 +6,8 @@
 // @author       You
 // @match        http://www.goldtokens.net/rankings/royal-fish-hunt*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=goldtokens.net
-// @updateURL    https://github.com/TomotechLI/FishHunt/blob/main/tampermonkey.js
-// @downloadURL  https://github.com/TomotechLI/FishHunt/blob/main/tampermonkey.js
+// @updateURL    https://github.com/TomotechLI/FishHunt/raw/main/tampermonkey.js
+// @downloadURL  https://github.com/TomotechLI/FishHunt/raw/main/tampermonkey.js
 // @grant        none
 // ==/UserScript==
 
