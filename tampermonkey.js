@@ -100,5 +100,5 @@ var els5 = document.querySelectorAll('[wc_remove]')
 Array.prototype.forEach.call(els5, function(el5) {
 el5.style.display = 'none';
 });
-console.log("wc_test");
+
 })();
