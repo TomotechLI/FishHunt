@@ -89,7 +89,7 @@ tablediv.setAttribute("id", "tablediv");
 wc_content.appendChild(tablediv);
 tablediv.appendChild(da_table);
 
-var dark1 = document.querySelector("#dark > div").setAttribute("wc_remove", "");
+
 var topnav = document.querySelector("#topnav").setAttribute("wc_remove", "");
 var fullblock = document.querySelector("#header").setAttribute("wc_remove", "");
 var nav = document.querySelector("#nav").setAttribute("wc_remove", "");
