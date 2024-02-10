@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Royal Fish Hunt Weekly Contest
 // @namespace    http://tampermonkey.net/
-// @version      2024-02-04
+// @version      1.3
 // @description  try to take over the world!
 // @author       You
 // @match        http://www.goldtokens.net/rankings/royal-fish-hunt*
