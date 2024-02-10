@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @description  try to take over the world!
-// @author       You
+// @author       Tomotechli
 // @match        http://www.goldtokens.net/rankings/royal-fish-hunt*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=goldtokens.net
 // @updateURL    https://github.com/TomotechLI/FishHunt/raw/main/tampermonkey.js
@@ -100,5 +100,4 @@ var els5 = document.querySelectorAll('[wc_remove]')
 Array.prototype.forEach.call(els5, function(el5) {
 el5.style.display = 'none';
 });
-
 })();
