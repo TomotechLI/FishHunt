@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Royal Fish Hunt Weekly Contest
 // @namespace    http://tampermonkey.net/
-// @version      1.3.2
+// @version      1.3.29
 // @description  try to take over the world!
 // @author       Tomotechli
 // @match        www.goldtokens.net/rankings/royal-fish-hunt*
@@ -53,7 +53,7 @@ var wc_difference = document.querySelectorAll('[id*="player"]');
 var len = wc_difference.length;
 for (var i4 = 0, l2 = wc_difference.length; i4 < l2; i4++) {
   var x1 = wc_difference[i4];
-
+x1.classList.add("player_data");
 var wc_old = wc_difference[(i4+len-1)%len].getAttribute("wc_points");
 var wc_new = x1.getAttribute("wc_points");
 
