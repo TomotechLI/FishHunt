@@ -1,7 +1,11 @@
 // ==UserScript==
 // @name         Royal Fish Hunt Weekly Contest
 // @namespace    http://tampermonkey.net/
+<<<<<<< HEAD
 // @version      1.3.29
+=======
+// @version      1.3.4
+>>>>>>> 44d581c6499675f04e74cce7aac9522784a3b38a
 // @description  try to take over the world!
 // @author       Tomotechli
 // @match        www.goldtokens.net/rankings/royal-fish-hunt*
@@ -53,7 +57,11 @@ var wc_difference = document.querySelectorAll('[id*="player"]');
 var len = wc_difference.length;
 for (var i4 = 0, l2 = wc_difference.length; i4 < l2; i4++) {
   var x1 = wc_difference[i4];
+<<<<<<< HEAD
 x1.classList.add("player_data");
+=======
+wc_difference[i4].classList.add("player_data");
+>>>>>>> 44d581c6499675f04e74cce7aac9522784a3b38a
 var wc_old = wc_difference[(i4+len-1)%len].getAttribute("wc_points");
 var wc_new = x1.getAttribute("wc_points");
 
@@ -70,7 +78,7 @@ var passes = document.querySelectorAll('[id="score_data5"]')
 Array.prototype.forEach.call(passes, function(pass) {
 pass.innerText = pass.parentElement.getAttribute("wc_diff");
 });
-const conditions = ["BellaLuna35", "Takarra", "Kelly Huntsman","kev Admiral"];
+const conditions = ["BellaLuna35", "Takarra", "Kelly Huntsman"];
 var wc_bgcolor = document.querySelectorAll('[id*="player"]');
 for (var i5 = 0, l5 = wc_bgcolor.length; i5 < l5; i5++) {
 var y1 = wc_bgcolor[i5];
