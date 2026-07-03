@@ -2,9 +2,8 @@
 // @name         Royal Fish Hunt Weekly Contest
 // @namespace    http://tampermonkey.net/
 <<<<<<< HEAD
-// @version      1.3.29
 =======
-// @version      1.3.4
+// @version      1.4.0
 >>>>>>> 44d581c6499675f04e74cce7aac9522784a3b38a
 // @description  try to take over the world!
 // @author       Tomotechli
@@ -78,7 +77,7 @@ var passes = document.querySelectorAll('[id="score_data5"]')
 Array.prototype.forEach.call(passes, function(pass) {
 pass.innerText = pass.parentElement.getAttribute("wc_diff");
 });
-const conditions = ["BellaLuna35", "Takarra", "Kelly Huntsman"];
+const conditions = ["Bella Sakura"]
 var wc_bgcolor = document.querySelectorAll('[id*="player"]');
 for (var i5 = 0, l5 = wc_bgcolor.length; i5 < l5; i5++) {
 var y1 = wc_bgcolor[i5];
